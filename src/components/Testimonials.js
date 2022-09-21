@@ -35,7 +35,7 @@ export default function Testimonials(){
 
 function Testimony(props){
     return(
-        <div data-aos="flip-up" className="testimony-wrapper width-100">
+        <div data-aos="flip-up" className="testimony-wrapper width-100" id="testimonial">
             <div className="testimony-header">
                 <div className="testimony-picture--wrapper">
                     <img 

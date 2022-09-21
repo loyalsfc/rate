@@ -2,7 +2,7 @@ import React from "react";
 
 function Exception(){
     return(
-        <section className="exception mt-2">
+        <section className="exception mt-2" id="use-cases">
             <div className="container margin-x-auto">
                 <h2 className="why-title title-mobile text-center" data-aos="zoom-in-up">What you can do with πrates MEV Bot</h2>
                 <p className="exception-text text-center max-width-100" data-aos="zoom-in-down">πrates Mev bot is a bot that finds trading opportunities between price slippage of cryptocurrency exchanges and performs automatic low-risk trades.</p>

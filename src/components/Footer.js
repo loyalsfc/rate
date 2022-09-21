@@ -14,6 +14,10 @@ function Footer(){
                         link3="Utilities"
                         link4="Use Cases"
                         link5="testimonials"
+                        linAddr2="#about"
+                        linAddr3="#utilities"
+                        linAddr4="#use-cases"
+                        linAddr5="testimonials"
                     />
                     <Footerlinks 
                         title="Resources"
@@ -43,11 +47,11 @@ function Footerlinks(props){
         <div className="link-wrap">
             <h5 className="link-title mb-1">{props.title}</h5>
             <ul className="footer-link mb-2">
-                <li>{props.link1}</li>
-                <li>{props.link2}</li>
-                <li>{props.link3}</li>
-                <li>{props.link4}</li>
-                <li>{props.link5}</li>
+                <a href={"#"}><li>{props.link1}</li></a>
+                <a href={props.linAddr2}><li>{props.link2}</li></a>
+                <a href={props.linAddr3}><li>{props.link3}</li></a>
+                <a href={props.linAddr4}><li>{props.link4}</li></a>
+                <a href={props.linAddr5}><li>{props.link5}</li></a>
             </ul>
         </div>
     )

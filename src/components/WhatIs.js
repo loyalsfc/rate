@@ -3,7 +3,7 @@ import thretes from '../assets/thretes.png'
 
 function WhatIs(){
     return(
-        <div className="container margin-x-auto">
+        <div className="container margin-x-auto" id="about">
             <section className="d-flex sm-column-reverse whatIs-container mt-2">
                 <div className="whatIs-image width-50">
                     <img 
