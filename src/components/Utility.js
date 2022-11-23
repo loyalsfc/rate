@@ -8,23 +8,38 @@ function Utility(){
                     className="why-title title-mobile text-center"
                     data-aos="zoom-in-down"    
                 >
-                    What you can do with πrates MEV Bot
+                    KEY FEATURES
                 </h2>
                 <div className="use-case-container d-flex mt-2 flex-column">
                     <UseCases 
                         animation="slide-right"
-                        title="Front-Running"
-                        content={"Front-running involves getting a transaction first in line in the execution queue ahead of a known pending transaction. πirates bot will scan the network for large orders on decentralized exchanges and submit competing transactions with higher gas fees to get them mined for you."} 
+                        title="Vigorous API"
+                        icon="bullseye"
+                        content='We have a public library available for smooth integration into dApp and Wallet.' 
                     />
                     <UseCases 
                         animation="slide-up"
-                        title="Sandwitch Attacks"
-                        content="You can use the sandwich mechanism of our bot to extract MEV from unsuspecting traders on decentralized exchanges by manipulating the price of an asset." 
+                        title="Limit Trading"
+                        icon="hand"
+                        content="You get the power of controlling your trades through various set of trading options right at your fingertips." 
                     />
                     <UseCases 
                         animation="slide-right"
-                        title="Back-Running"
-                        content="Back-running is the practice of getting a transaction ordered second in line or immediately after a known pending target transaction. Our πirates back-running bots monitor the mempool for new token pair listings to fast-track your transactions" 
+                        title="Multichain"
+                        icon='link'
+                        content="Our protocol is available on multiple blockchains and will keep on integrating potential blockchains in the coming time." 
+                    />
+                    <UseCases 
+                        animation="slide-up"
+                        title="Real-time quotes"
+                        icon='clock'
+                        content="We aggregate real-time quotes from KYC validated and trusted market makers, offering prices to all of our users." 
+                    />
+                    <UseCases 
+                        animation="slide-right"
+                        title="Verified Contract"
+                        icon="circle-check"
+                        content="πrates has a token of the same name on ethereum smart chain with verified contract and we plan on getting it AUDITED." 
                     />
                 </div>
             </div>
@@ -40,6 +55,9 @@ function UseCases(props){
             data-aos-delay="150"
             data-aos-duration="1500"
         >
+            <div className="icon-wrapper">
+                <i className={"fa-solid fa-" + props.icon}></i>
+            </div>
             <h4 className="use-case-title text-center">{props.title}</h4>
             <p>{props.content}</p>
         </div>

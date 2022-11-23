@@ -26,15 +26,35 @@ function WhatIs(){
                         data-aos-duration="1500" 
                         className="why-main-content max-width-100"
                     >
-                        MEV is an abbreviation of “Miner Extractable Value” or “Maximal Extractable Value.” It refers to profits that can be made by extracting value from Ethereum users by reordering, insertingor censoring transactions within blocks being produced.
+                        πrates aggregates decentralized exchanges and other DeFi services in one comprehensive and sophisticated interface to facilitate users’ interactions with decentralized finance — both for dApp developers and for end-users who are here for the core utility.
                     </p>
                 </div>
             </section>
+            
             <article className="mt-2 m-b-2">
                 <h2 
                     data-aos="flip-left" 
                     data-aos-duration="1500" 
-                    className="why-title title-mobile text-center mt-2"
+                    className="why-title title-mobile text-center mt-2 text-pry"
+                >
+                    Why use an DEX Aggregator?
+                </h2>
+                    <ul 
+                        data-aos="flip-right" 
+                        data-aos-duration="1500" 
+                        className="max-width-100"
+                    >
+                        <li>DEX Aggregators are like search engine of DeFi Trading.</li>
+                        <li>DEX Aggregators source liquidity from countless sources and can guarantee you a better market rate than when you search manually.</li>
+                    </ul>
+
+            </article>
+            
+            <article className="mt-2 m-b-2">
+                <h2 
+                    data-aos="flip-left" 
+                    data-aos-duration="1500" 
+                    className="why-title title-mobile text-center mt-2 text-pry"
                 >
                     Why MEV Occur?
                 </h2>
@@ -43,11 +63,15 @@ function WhatIs(){
                     data-aos-duration="1500" 
                     className="max-width-100 why-content"
                 >
-                    In Ethereum, miners are responsible for selecting and aggregating transactions into blocks. Crucially, they have full autonomy in deciding which transactions from the mempool—an off-chain space where pending transactions await confirmation—they’ll include in the blocks they mine. 
+                    It can be inconvenient to manually hunt for the best price available plus analyze fees and this is where πrates comes into action.
+                    πrates is designed to take that legwork out for you automatically by aggregating data from different sources so you don't have to.
+
+                    There's no need to visit multiple exchanges to see Individual trading options,just visit <a href="https://piratemevbot.com/" className="text-pry">piratemevbot.com</a> .
+                    {/* In Ethereum, miners are responsible for selecting and aggregating transactions into blocks. Crucially, they have full autonomy in deciding which transactions from the mempool—an off-chain space where pending transactions await confirmation—they’ll include in the blocks they mine. 
                 <br/><br/>   
                     As miners, validators, and sequencers optimize for profit, they tend to select and order transactions by the highest gas price or transaction fees. However, the protocol does not require transactions to be ordered according to fees. Miners can leverage their discretionary ability to reorder transactions to extract additional profits from users. This “irregular” stream of revenue is MEV.
                 <br/><br/>
-                    There is only one solution to deal with these toxic mev bots and the solution is to make it a easily accesible, open to everyone.
+                    There is only one solution to deal with these toxic mev bots and the solution is to make it a easily accesible, open to everyone. */}
                 </p>
             </article>
         </div>

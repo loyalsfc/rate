@@ -25,7 +25,7 @@ function App() {
       <Hero />
       <WhatIs />
       <Utility />
-      <Exception />
+      {/* <Exception /> */}
       <Testimonials />
       <Footer />
     </div>

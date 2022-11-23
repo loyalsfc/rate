@@ -159,7 +159,10 @@ nav{
   font-weight: 700;
   font-size: 2.5rem;
   line-height: 150%;
-  color: #FFFFFF
+}
+.max-width-100 li{
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
 }
 .why-main-content{
   font-style: normal;
@@ -180,10 +183,13 @@ nav{
 .utility{
   padding-top: 2rem;
   background-color: var(--secondary-color);
+  margin-bottom: 2rem;
 }
 .use-case-container{
   line-height: 1.5rem;
   padding: 0 0 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .use-case{
   width: 31%;
@@ -213,7 +219,8 @@ nav{
   width: 5rem;
   height: 5rem;
   border-radius: 50%;
-  background-image: linear-gradient(180deg, var(--primary-color) 0%, rgba(255, 255, 255, 0.1) 80%);
+  /* background-image: linear-gradient(180deg, var(--primary-color) 0%, rgba(255, 255, 255, 0.1) 80%); */
+  background-color: rgba(255, 255, 255, 0.1);
   font-size: 3rem;
   display: flex;
   align-items: center;
@@ -222,7 +229,8 @@ nav{
   margin-bottom: 1rem;
 }
 .icon-wrapper i{
-  color: var(--primary-color);
+  /* color: var(--primary-color); */
+  color: rgba(255, 255, 255, 0.7);
 }
 
 /* Testimonial */
@@ -346,6 +354,9 @@ footer{
   }
   .flex-column{
     flex-direction: column;
+  }
+  .flex-column-reverse{
+    flex-direction: column-reverse;
   }
   nav{
     margin-bottom: 1.25rem;

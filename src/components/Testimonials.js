@@ -4,7 +4,7 @@ export default function Testimonials(){
     return(
         <section>
             <div className="container margin-x-auto">
-                <h2 className="why-title title-mobile text-center" data-aos="slide-down">TESTIMONIALS</h2>
+                <h2 className="why-title title-mobile text-center text-pry" data-aos="slide-down">TESTIMONIALS</h2>
                 <div className="testimonials d-flex flex-column ">
                     <Testimony
                         image = 'https://images.unsplash.com/photo-1531123897727-8f129e1688ce?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cG9ydHJhaXR8ZW58MHx8MHx8&auto=format&fit=crop&w=500'
@@ -18,7 +18,7 @@ export default function Testimonials(){
                         name = 'Adam Collinson'
                         countryFlag = 'https://cdn.pixabay.com/photo/2015/11/06/13/29/union-jack-1027898__340.jpg'
                         countryName = 'UK'
-                        note = "I love the bot because it is free, you don't have to pay any fee because you can use it."
+                        note = "I love the bot because it is free, you don't have to pay any fee before you can use it."
                     />
                     <Testimony
                         image = 'https://images.unsplash.com/photo-1521119989659-a83eee488004?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cG9ydHJhaXR8ZW58MHx8MHx8&auto=format&fit=crop&w=500'
