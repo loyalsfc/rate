@@ -21,7 +21,7 @@ function Hero(){
                     </p> */}
                 </div>
                 <div data-aos="slide-up" data-aos-duration="2000" className="bitcoin-illustration">
-                    <img src={heroImage} className="hero-img width-100" />
+                    <img src={heroImage} className="hero-img width-100" alt="hero image"/>
                 </div>
             </section>
         </div>

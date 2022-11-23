@@ -22,9 +22,9 @@ function Header(){
             </div>
             <div className="container margin-x-auto">
                 <nav>
-                    <img src={Logo} className="logo-image"/>
+                    <img src={Logo} className="logo-image" alt="logo"/>
                     <ul className="nav-menu d-sm-none">
-                    <a href="#"><li className="menu-item">Home</li></a>
+                        <a href="#"><li className="menu-item">Home</li></a>
                         <a href="#about"><li className="menu-item">About</li></a>
                         <a href="#utilities"><li className="menu-item">Utilities</li></a>
                         <a href="#use-cases"><li className="menu-item">Use Cases</li></a>

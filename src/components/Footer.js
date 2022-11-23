@@ -6,7 +6,7 @@ function Footer(){
         <footer className="mt-2">
             <div className="container margin-x-auto">
                 <div className="footer-links flex-column mb-2">
-                    <img src={Logo} className="footer-logo mb-2" />
+                    <img src={Logo} className="footer-logo mb-2" alt="logo" />
                     <Footerlinks 
                         title="Quick Link"
                         link1="Home"
@@ -17,7 +17,7 @@ function Footer(){
                         linAddr2="#about"
                         linAddr3="#utilities"
                         linAddr4="#use-cases"
-                        linAddr5="testimonials"
+                        linAddr5="#testimonials"
                     />
                     <Footerlinks 
                         title="Resources"
@@ -26,6 +26,10 @@ function Footer(){
                         link3="Contact us"
                         link4="Careers"
                         link5="Disclaimer"
+                        linAddr2="#"
+                        linAddr3="#"
+                        linAddr4="# "
+                        linAddr5="#"
                     />
                 </div>
                 <div className="footer-text flex-column">
